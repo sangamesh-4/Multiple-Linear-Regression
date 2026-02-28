@@ -1,53 +1,81 @@
-Multiple Linear Regression (MLR) Project 📊
-Project Overview
+# 📊 Multiple Linear Regression (MLR)
 
-This project demonstrates the implementation of Multiple Linear Regression to analyze the relationship between multiple independent variables and a dependent variable. The objective is to understand how different features collectively influence the target variable and evaluate the model’s predictive performance.
+## 📌 Project Overview
+This project demonstrates the implementation of Multiple Linear Regression to analyze the relationship between multiple independent variables and a continuous target variable.
 
-Dataset
+The objective is to understand how different features collectively influence the output and evaluate the predictive performance of the model.
 
-The dataset consists of multiple input features used to predict a continuous target variable. Data preprocessing steps such as handling missing values, encoding categorical variables, and feature selection were performed before model training.
+---
 
-Tools & Technologies
+## 🎯 Objectives
+- Perform data preprocessing and cleaning  
+- Analyze relationships between features  
+- Build a Multiple Linear Regression model  
+- Evaluate model performance using regression metrics  
 
-Python
+---
 
-Pandas
+## 📂 Dataset
+The dataset contains multiple input features used to predict a continuous target variable.
 
-NumPy
+Preprocessing steps performed:
+- Handling missing values  
+- Encoding categorical variables (if applicable)  
+- Feature selection  
+- Train-test split  
 
-Matplotlib
+---
 
-Seaborn
+## 🔎 Exploratory Data Analysis (EDA)
+- Feature distribution analysis  
+- Correlation matrix evaluation  
+- Identification of relationships between independent variables and target variable  
 
-Scikit-learn
+EDA helped in understanding data patterns before model building.
 
-Key Steps Performed
+---
 
-Data preprocessing and cleaning
+## 🤖 Model Implementation
+The model was built using:
 
-Exploratory Data Analysis (EDA)
+- Multiple Linear Regression (Scikit-learn)
 
-Correlation analysis
+The dataset was divided into training and testing sets to evaluate model performance effectively.
 
-Train-test split
+---
 
-Model building using Multiple Linear Regression
+## 📈 Model Evaluation Metrics
+The model performance was evaluated using:
 
-Model evaluation
+- R² Score – Measures how well the model explains variance  
+- Mean Absolute Error (MAE) – Average absolute prediction error  
+- Root Mean Squared Error (RMSE) – Measures error magnitude  
 
-Model Evaluation Metrics
+---
 
-R² Score
+## 📊 Key Learnings
+- Understanding assumptions of linear regression  
+- Importance of feature relationships  
+- Model evaluation and interpretation  
+- Practical application of supervised learning  
 
-Mean Absolute Error (MAE)
+---
 
-Root Mean Squared Error (RMSE)
+## 🛠 Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-Conclusion
+---
 
-The Multiple Linear Regression model was able to capture the relationship between the independent variables and the target variable effectively. The evaluation metrics indicate that the model provides a reasonable level of prediction accuracy. Further improvements can be achieved through feature engineering, regularization techniques, or hyperparameter tuning.
+## 📌 Conclusion
+The Multiple Linear Regression model successfully captured the relationship between multiple input variables and the target variable. The evaluation metrics indicate reasonable predictive performance. Further improvements can be achieved through feature engineering, regularization techniques, and cross-validation.
 
-Author
+---
 
-Sangamesh
-Aspiring Data Scientist | Machine Learning Learner
+## 👨‍💻 Author
+Sangamesh  
+Aspiring Data Scientist | Machine Learning Enthusiast
